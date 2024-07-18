@@ -25,6 +25,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           body: ${{ github.event.pull_request.title }}
+          draft: true
           fail_on_unmatched_files: true
           files: docs/README.pdf
           name: Release ${{ github.ref }}
