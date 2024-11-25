@@ -29,7 +29,7 @@ jobs:
         with:
           body: |
             Release created from push to the `main` branch.
-          draft: true
+          draft: false
           fail_on_unmatched_files: true
           files: docs/README.pdf
           name: Release for commit ${{ github.sha }}
