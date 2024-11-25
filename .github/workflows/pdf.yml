@@ -1,9 +1,9 @@
 name: Release PDF
 
 on:
-  pull_request:
-    branches: [main]
-    paths: 'docs/README.md'
+  push: 
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
@@ -22,11 +22,14 @@ jobs:
           cache: npm
       - run: npm install
       - run: npm run build:pdf
+      - name: Verify generated PDF
+        run: ls -l docs/README.pdf
       - name: Create a draft release
         uses: softprops/action-gh-release@v1
         with:
-          body: ${{ github.event.pull_request.title }}
+          body: |
+            Release created from push to the `main` branch.
           draft: true
           fail_on_unmatched_files: true
           files: docs/README.pdf
-          name: Release ${{ github.ref }}
+          name: Release for commit ${{ github.sha }}
