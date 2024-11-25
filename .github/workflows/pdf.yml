@@ -24,12 +24,19 @@ jobs:
       - run: npm run build:pdf
       - name: Verify generated PDF
         run: ls -l docs/README.pdf
-      - name: Create a draft release
+      - name: Create a tag
+        id: create_tag
+        run: |
+          TAG_NAME=v$(date +"%Y%m%d%H%M%S")
+          git tag $TAG_NAME
+          git push origin $TAG_NAME
+          echo "tag_name=$TAG_NAME" >> $GITHUB_ENV
+      - name: Create a release
         uses: softprops/action-gh-release@v1
         with:
           body: |
             Release created from push to the `main` branch.
-          draft: false
           fail_on_unmatched_files: true
           files: docs/README.pdf
-          name: Release for commit ${{ github.sha }}
+          name: Release ${{ env.tag_name }}
+          tag_name: ${{ env.tag_name }}
