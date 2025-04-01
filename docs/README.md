@@ -1,60 +1,76 @@
 ## 概要
 
-- 2021/05、株式会社インターラプトに就職。基本設計を経験、後にフロントエンド開発を担当
+- **2021/05** 株式会社インターラプトに入社。基本設計を経験後、フロントエンド開発を担当。
+- **2024/11** 株式会社インターラプトを退職。
+- **2024/12** フリーランスとして活動開始。
+- **2025/01** 株式会社unknownに参画。自社事業のフロントエンド・バックエンド開発を担当。
 
-## スキル
+## スキルセット
 
 ### 言語
 
-| 言語 | 経験年数 |
-| ---- | ---- |
-| TypeScript | 3年 |
-| JavaScript | 3年 |
-| Ruby | 数か月 |
-| Swift | 数か月 |
+| 言語         | 経験年数 |
+|-------------|--------|
+| TypeScript  | 4年    |
+| React       | 4年    |
+| JavaScript  | 4年    |
+| Ruby        | 数か月 |
+| Swift       | 数か月 |
 
-### フレームワーク
+### フレームワーク・ライブラリ
 
 | フレームワーク | 経験年数 |
-| ---- | ---- |
-| React | 3年 |
-| Next.js | 3年 |
+|--------------|--------|
+| React        | 4年    |
+| Next.js      | 4年    |
 | Ruby on Rails | 数か月 |
 
-### その他
+### その他ツール・技術
 
-- GitHub / GitHub Actions / GitHub Copilot
-- Slack / Notion / Figma / Miro
-- ESLint / Prettier
-- Docker / Docker Compose
-- Firestore / Firebase Authentication
+- **開発ツール**: GitHub / GitHub Actions / GitHub Copilot / ChatGPT
+- **フロントエンド**: TypeScript / JavaScript / React / Next.js / Tailwind CSS
+- **バックエンド・データベース**: Prisma / PostgreSQL / Firestore / Firebase Authentication / Ruby on Rails
+- **インフラ・デプロイ**: Docker / Docker Compose / Vercel
+- **コラボレーション**: Slack / Notion / Figma / Miro
+- **コード品質管理**: ESLint / Prettier
 
 ## 職務経歴
 
-### 株式会社インターラプト
+### 株式会社インターラプト（2021/05 - 2024/11）
 
-- 2021/05 - 2024/11末
+#### 自社開発プロジェクト
 
-#### 自社開発
+- **チーム規模**: 約3名
+- **担当業務**:
+  - TypeScript + React を用いたフロントエンド開発
+  - Firestore を用いたデータベース設計・管理
+  - GitHub Actions を活用した CI/CD の構築
+  - ESLint / Prettier を活用したコード品質の維持・改善
+  - Miro を用いた画面設計・要件定義
+  - コードレビューを通じたコード品質向上
+  - 開発スケジュールの見積もり・調整
 
-- チーム規模: 3名程度
-- 役割: 自社事業にて基本設計（要件定義を元に画面設計）、フロントエンド開発を担当
-- 詳細:
-  - TypeScriptとReactを用いたフロントエンド開発
-  - Firestoreを用いたデータベース設計と管理
-  - GitHub Actionsを用いたCI/CDの構築
-  - ESLintとPrettierを用いたコード品質の維持と改善
-  - 開発スケジュールの見積もり、調整
-  - デザインツール(Miro)を用いた画面設計
-  - コードレビューを通して、コード品質の向上
+#### 受託開発プロジェクト
 
-#### 受託開発
+- **チーム規模**: 約10名
+- **担当業務**:
+  - Ruby on Rails を用いたバックエンド開発
+  - フロントエンドとの API 連携
+  - Docker / Docker Compose を活用した開発環境構築
+  - コードレビューを通じた品質向上
+  - 開発スケジュールの見積もり・調整
 
-- チーム規模: 10名程度
-- 役割: バックエンド開発を担当
-- 詳細:
-  - Ruby on Railsを用いたバックエンド開発
-  - フロントエンドとの連携
-  - 開発スケジュールの見積もり、調整
-  - コードレビューを通して、コード品質の向上
-  - Docker / Docker Composeを用いた開発環境の構築
+### 株式会社unknown（2024/12 - 現在）
+
+- **チーム規模**: 約10名
+- **担当業務**:
+  - TypeScript + React を用いたフロントエンド開発
+  - Prisma を用いたデータベース設計・管理
+  - PostgreSQL を活用したデータ管理
+  - Vercel を用いたデプロイ環境構築
+  - Tailwind CSS を用いた UI スタイリング
+  - GitHub Actions を活用した CI/CD の構築
+  - ESLint / Prettier を活用したコード品質管理
+  - コードレビューを通じた品質向上
+  - 開発スケジュールの見積もり・調整
+
