@@ -37,6 +37,6 @@ jobs:
           body: |
             Release created from push to the `main` branch.
           fail_on_unmatched_files: true
-          files: docs/README.pdf
+          files: docs/**.pdf
           name: Release ${{ env.tag_name }}
           tag_name: ${{ env.tag_name }}
