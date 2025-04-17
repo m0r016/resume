@@ -25,7 +25,7 @@
 
 ### その他ツール・技術
 
-- **開発効率化・AI活用**: GitHub Copilot / ChatGPT による実装補助と、生成コードのレビュー活用
+- **開発効率化・AI活用**: GitHub Copilot / ChatGPTによる実装補助と、生成コードのレビュー活用
 - **フロントエンド**: TypeScript / React / Next.js / Tailwind CSS
 - **バックエンド・DB**: Prisma / PostgreSQL / Firestore / Firebase Authentication
 - **インフラ・デプロイ**: Docker / Docker Compose / Vercel
@@ -38,29 +38,29 @@
 
 #### 自社開発プロジェクト（チーム規模: 約10名）
 自社SaaSプロダクトの開発において、UI実装だけでなく、画面設計・要件整理までを一貫して担当。技術選定や工数見積もり、CI/CDの整備にも携わりました。
-  - TypeScript + React によるフロントエンド開発（Atomic Designを意識した設計）
-  - Firestore を用いたリアルタイムDB設計とクエリ最適化
+  - TypeScript + Reactによるフロントエンド開発（Atomic Designを意識した設計）
+  - Firestoreを用いたリアルタイムDB設計とクエリ最適化
   - GitHub Actionsを活用したCI/CDの構築、活用による開発効率化
-  - Miro + Figma による画面要件の言語化とデザインプロセスの効率化
+  - Miro + Figmaによる画面要件の言語化とデザインプロセスの効率化
   - コードレビューを通じたコード品質向上
   - タスク見積もりなどのスケジュール調整
 
 #### 受託開発プロジェクト（チーム規模：約10名）
 業務系Webアプリの新規開発に、主にバックエンドエンジニアとして参画。チーム開発の中での連携・レビュー文化を意識し、再利用性や読みやすさに配慮した実装を行いました。
-  - Ruby on Rails によるAPI設計・実装・テスト
-  - Docker を用いたローカル開発環境の整備とチーム共通化
-  - OpenAPI仕様 を用いたフロントエンド連携の明確化
+  - Ruby on RailsによるAPI設計・実装・テスト
+  - Dockerを用いたローカル開発環境の整備とチーム共通化
+  - OpenAPI仕様を用いたフロントエンド連携の明確化
   - コードレビューによる知見共有とリファクタリング推進
 
 ### 株式会社unknown（2024/12 - 現在）
 
 #### 自社プロダクト開発チーム（チーム規模: 約10名）
 急成長中のスタートアップにおいて、0→1フェーズからの開発を担当。技術的な意思決定とユーザー体験の向上を両立しつつ、実装を担っています。
-- TypeScript + React によるフロントエンド開発（パフォーマンス改善・アクセシビリティ対応含む）
-- Prisma + PostgreSQL によるDB設計とスキーマ管理
-- Tailwind CSS を用いた柔軟かつ統一感のあるUI設計
-- Vercel による高速なプレビューとデプロイ管理
-- GitHub Actions によるワークフロー自動化と開発効率化
+- TypeScript + Reactによるフロントエンド開発（パフォーマンス改善・アクセシビリティ対応含む）
+- Prisma + PostgreSQLによるDB設計とスキーマ管理
+- Tailwind CSSを用いた柔軟かつ統一感のあるUI設計
+- Vercelによる高速なプレビューとデプロイ管理
+- GitHub Actionsによるワークフロー自動化と開発効率化
 
 ## 自己PR
 
