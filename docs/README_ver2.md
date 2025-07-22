@@ -15,7 +15,8 @@ React, Next.js, Ruby on Rails
 ### その他ツール・技術
 - 開発効率化・AI活用: GitHub Copilot / Devinによるレビュー活用
 - フロントエンド: TypeScript / React / Next.js / Tailwind CSS / Redux / React Hook Form
-- バックエンド・DB: Prisma / PostgreSQL / Firestore / Firebase Authentication
+- バックエンド・DB: Prisma / PostgreSQL / Firestore / Firebase Authentication / GraphQL
+- テスト: Jest
 - インフラ・デプロイ: Docker / Docker Compose / Vercel / GitHub Actions
 - コラボレーション: Slack / Notion / Figma / Miro
 - 品質管理: ESLint / Prettier / Biome
@@ -57,12 +58,13 @@ React, Next.js, Ruby on Rails
 - Dockerを用いたローカル開発環境の整備とチーム共通化
 - OpenAPI仕様を用いたフロントエンド連携の明確化
 - コードレビューによる知見共有とリファクタリング推進
-#### 株式会社unknown
+
+#### 青果業界向けアプリ開発案件
 #### 2024年12月 - 2025年4月
 #### 開発環境
 - TypeScript, React, Prisma, PostgreSQL, Docker, GitHub Actions
 - Slack, Notion, Figma
-#### 自社プロダクト開発チーム（チーム規模: 約10名）
+#### プロダクト開発チーム（チーム規模: 約10名）
 業務効率化を支援するプロダクトの0→1フェーズに従事。技術選定から実装まで幅広く担当しました。
 - TypeScript + Tailwind CSS による UI 実装、パフォーマンス最適化
 - Next.js（App Router）を用いた API ハンドラ・ルーティング設計と SSR 実装
@@ -70,3 +72,18 @@ React, Next.js, Ruby on Rails
 - Dockerを用いたローカル開発環境の整備とチーム共通化
 - GitHub Actionsを活用したCI/CDの構築、活用による開発効率化
 - タスク見積もりとレビューによるスケジュール調整と品質管理
+
+#### 化学品業界向けアプリ開発案件
+#### 2025年5月 - 2025年6月
+#### 開発環境
+- TypeScript, React, Prisma, PostgreSQL, Docker, GitHub Actions, GraphQL
+- Slack, Notion
+#### プロダクト開発チーム（チーム規模: 約10名）
+業務効率化を支援するプロダクトに従事。実装からテストまでを担当しました。
+- TypeScript + Tailwind CSS による UI 実装
+- Next.js（App Router）を用いた API ハンドラ・ルーティング設計と SSR 実装
+- Prisma + PostgreSQLによるDB設計とスキーマ管理
+- GraphQLを用いたAPI設計とクエリ最適化
+- Dockerを用いたローカル開発環境の整備とチーム共通化
+- GitHub Actionsを活用したCI/CDの構築、活用による開発効率化
+- Jestを用いたユニットテストの実装と品質管理
