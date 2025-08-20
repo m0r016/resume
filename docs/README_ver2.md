@@ -2,7 +2,7 @@
 
 ## 基本情報
 
-- 氏名: 諸田優希
+- 氏名: M.Y
 - 生年月日: 2001年12月25日
 - 所在地: 兵庫県
 - GitHub: [github.com/m0r016](https://github.com/m0r016)
